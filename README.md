@@ -13,10 +13,11 @@ This project develops a machine learning model to predict the likelihood of a pa
 
 
 ## 📊 Dataset
-- **Source:** Public healthcare dataset (improved_disease_dataset.csv).
+- **Source:** Public healthcare dataset (Kaggle/UCI ML Repository).
 - **Features:** Age, gender, blood pressure, cholesterol, medical history, symptoms, lifestyle habits.
 - **Target Variable:** `1` = Disease Present, `0` = No Disease.
 - **Size:** ~X,XXX records with Y features.
+
 
 
 ## 🔍 Methodology
@@ -75,8 +76,12 @@ Tested and compared:
 - **Version Control:** Git, GitHub
 
 
+
 ## 🚀 Future Improvements
 - Integrate wearable device real-time data
 - Apply deep learning models for multi-disease prediction
 - Enhance interpretability using SHAP or LIME
-- 
+
+
+## 📂 Repository Structure
+├── data/                  # Dataset files ├── notebooks/             # Jupyter notebooks for EDA and model training ├── app/                   # Flask web application ├── requirements.txt       # Project dependencies ├── README.md              # Project documentation └── model.pkl              # Saved trained model
