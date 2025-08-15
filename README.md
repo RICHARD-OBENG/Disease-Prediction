@@ -13,7 +13,7 @@ This project develops a machine learning model to predict the likelihood of a pa
 
 
 ## 📊 Dataset
-- **Source:** Public healthcare dataset (Kaggle/UCI ML Repository).
+- **Source:** Public healthcare dataset (https://github.com/RICHARD-OBENG/Disease-Prediction/blob/main/improved_disease_dataset.csv).
 - **Features:** Age, gender, blood pressure, cholesterol, medical history, symptoms, lifestyle habits.
 - **Target Variable:** `1` = Disease Present, `0` = No Disease.
 - **Size:** ~X,XXX records with Y features.
